@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.user
+
+# Build results
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# dotnet secrets
+**/secrets.json
+
+# Publish directory
+publish/
