@@ -30,7 +30,7 @@ public class ShiftService
 
         if (hour >= 8 && hour < 16) return _teamA;
         if (hour >= 16 && hour < 24) return _teamB;
-        return _teamC; // midnight to 8am
+        return _teamC;
     }
 
     public virtual List<Agent> GetAvailableOverflowAgents()
